@@ -6,4 +6,14 @@ last_name = "Pierce"
 
 #the man is called Eric Abban
 
-print(f"the man is called {first_name}")
+#print(f"the man is called {first_name}")
+
+brand = "product"
+cost = 55
+#every product of dell cost 55
+print(f"every {brand} of dell cost {cost}")
+print(type(cost))
+print(type(brand))
+print("cost" + "brand")
+print("cost " + "brand")
+
