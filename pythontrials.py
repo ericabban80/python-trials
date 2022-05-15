@@ -15,5 +15,13 @@ print(f"every {brand} of dell cost {cost}")
 print(type(cost))
 print(type(brand))
 print("cost" + "brand")
-print("cost " + "brand")
+#print("cost " + "brand")
+
+sex = "female"
+name = "raspberry of flavour"
+location = "north"
+print(len(name))
+print(len(location))
+print(len("north"))
+
 
