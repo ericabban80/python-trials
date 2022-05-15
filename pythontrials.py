@@ -25,10 +25,20 @@ cost = 55
 #print(len(location))
 #print(len("north"))
 
+
 brand = "Johnson & Johnson"
-print(brand.upper())
-print(brand.lower())
-print(brand.replace("J", "D"))
+#print(brand.upper())
+#print(brand.lower())
+#print(brand.replace("J", "D"))
+
+A = 98
+B = 2
+#print(A+B)
+
+A = "98"
+B = "2"
+print(A+B)
+
 
 
 
