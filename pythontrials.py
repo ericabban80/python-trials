@@ -38,7 +38,20 @@ B = 2
 A = "98"
 B = "2"
 #print(A+B)
-print(len(A))
+#print(len(A))
+
+brand = "Milo"
+#print(brand == "Milo")
+
+#print(brand == "milo")
+
+#print(brand != "milo")
+
+#print("lo" in brand)
+
+#print ("lo" in "milo")
+
+print ("lo" not in "milo")
 
 
 
