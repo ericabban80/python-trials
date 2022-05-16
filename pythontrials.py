@@ -37,7 +37,8 @@ B = 2
 
 A = "98"
 B = "2"
-print(A+B)
+#print(A+B)
+print(len(A))
 
 
 
