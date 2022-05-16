@@ -55,10 +55,12 @@ brand = "Milo"
 
 name = "hardy"
 age = 21
+pi = 3.14
 numbers = []
 print(type(name))
 print(type(age))
 print(type(numbers))
+print(type(pi))
 
 
 
