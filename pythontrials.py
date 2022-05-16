@@ -57,10 +57,24 @@ name = "hardy"
 age = 21
 pi = 3.14
 numbers = []
-print(type(name))
-print(type(age))
-print(type(numbers))
-print(type(pi))
+#print(type(name))
+#print(type(age))
+#print(type(numbers))
+#print(type(pi))
+
+comments = "jamming inside " \
+           "rocking out "\
+           "sliding smooth "
+print(comments)
+
+comments = """
+           jamming inside
+           rocking out
+           sliding smooth
+"""
+print(comments)
+
+
 
 
 
