@@ -51,7 +51,14 @@ brand = "Milo"
 
 #print ("lo" in "milo")
 
-print ("lo" not in "milo")
+#print ("lo" not in "milo")
+
+name = "hardy"
+age = 21
+numbers = []
+print(type(name))
+print(type(age))
+print(type(numbers))
 
 
 
