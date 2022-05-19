@@ -78,17 +78,25 @@ comments = """
 fruits = ["mango", "orange", "grapes"]
 lists = ["man", "woman", "animal"]
 fruits.pop()
-print(fruits)
+#print(fruits)
 
 
 fruits = ["mango", "orange", "grapes"]
 lists = ["man", "woman", "animal"]
 lists.append(fruits)
-print(lists)
+#print(lists)
 
 fruits = ["mango", "orange", "grapes"]
 lists = ["man", "woman", "animal"]
-print(lists)
+#print(lists)
+
+import builtins
+from pprint import pprint
+print(dir(builtins))
+
+pprint(dir(builtins))
+
+
 
 
 
