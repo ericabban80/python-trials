@@ -92,9 +92,19 @@ lists = ["man", "woman", "animal"]
 
 import builtins
 from pprint import pprint
-print(dir(builtins))
+#print(dir(builtins))
 
-pprint(dir(builtins))
+#pprint(dir(builtins))
+
+#convert int to str
+
+x = 64
+y = str(x)
+#print(y, type(y))
+
+age = 15
+age2 = str(age)
+print(age2, type(age2))
 
 
 
