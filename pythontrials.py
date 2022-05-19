@@ -65,14 +65,30 @@ numbers = []
 comments = "jamming inside " \
            "rocking out "\
            "sliding smooth "
-print(comments)
+#print(comments)
 
 comments = """
            jamming inside
            rocking out
            sliding smooth
 """
-print(comments)
+#print(comments)
+
+
+fruits = ["mango", "orange", "grapes"]
+lists = ["man", "woman", "animal"]
+fruits.pop()
+print(fruits)
+
+
+fruits = ["mango", "orange", "grapes"]
+lists = ["man", "woman", "animal"]
+lists.append(fruits)
+print(lists)
+
+fruits = ["mango", "orange", "grapes"]
+lists = ["man", "woman", "animal"]
+print(lists)
 
 
 
