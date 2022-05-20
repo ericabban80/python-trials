@@ -104,7 +104,27 @@ y = str(x)
 
 age = 15
 age2 = str(age)
-print(age2, type(age2))
+#print(age2, type(age2))
+
+thisdict = {"milo", "coffee", "caffeine"}
+dir(thisdict)
+#print(dir(thisdict))
+
+
+thisdict = {"milo", "coffee", "caffeine"}
+dir(thisdict)
+#pprint(dir(thisdict))
+
+thisdict = {"bmw", "mustang", "lambo", "chevy"}
+#print(thisdict.pop())
+
+
+thisdict = {"bmw", "mustang", "lambo", "chevy"}
+pprint(dir(thisdict))
+pprint(thisdict.union())
+
+
+
 
 
 
